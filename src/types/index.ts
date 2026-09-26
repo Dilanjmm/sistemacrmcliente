@@ -57,6 +57,7 @@ export interface Prospecto {
   estado_comercial: string
   vendedor_id: string
   eliminado: boolean
+  eliminado_at: string | null
   created_at: string
 }
 
